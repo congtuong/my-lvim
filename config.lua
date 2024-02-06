@@ -49,6 +49,9 @@ lvim.builtin.cmp.mapping["<Tab>"] = function(fallback)
   end
 end
 
+lvim.format_on_save.enabled = true
+lvim.format_on_save.timeout = 3000
+
 -- Terminal binding
 lvim.builtin.which_key.mappings["t"] = {
   name = "+Terminal",
