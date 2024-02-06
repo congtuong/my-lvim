@@ -1,4 +1,4 @@
-FROM alpine:edge AS base
+FROM alpine AS base
 WORKDIR /root
 SHELL ["/bin/sh", "-c"]
 
