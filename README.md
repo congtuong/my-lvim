@@ -29,5 +29,15 @@ There is a helper script to start up the container `./run.sh` or just start it l
 ~$ ./run.sh
 ```
 
+### Windows
+
+Require PowerShell to install this.
+
+If you are using Windows, run `./install.ps1` file. Depending on your system's security settings, you may need to enable execution of PowerShell scripts by running the following command in an elevated PowerShell session: 
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
 
 
